@@ -13,6 +13,10 @@ body {
     @apply bg-indigo-500/90;
 }
 
+.three_cols_grid {
+    grid-template-columns: auto auto auto;
+}
+
 @layer components {
     .app_btn {
         @apply border-2 rounded border-indigo-900 bg-none p-2 text-xl cursor-pointer;
