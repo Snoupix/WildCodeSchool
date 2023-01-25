@@ -74,7 +74,7 @@ export default function Index() {
 	}
 
 	return (
-		<div className="w-screen bg-indigo-500/90">
+		<div className="w-screen">
 			<header className="p-10 flex flex-row justify-center gap-5 border-b border-b-indigo-800">
 				<img
 					src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png"

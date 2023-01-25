@@ -9,6 +9,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    @apply bg-indigo-500/90;
+}
+
 @layer components {
     .app_btn {
         @apply border-2 rounded border-indigo-900 bg-none p-2 text-xl cursor-pointer;
