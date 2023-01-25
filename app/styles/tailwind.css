@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@layer components {
+    .app_btn {
+        @apply border-2 rounded border-indigo-900 bg-none p-2 text-xl cursor-pointer;
+    }
+}
